@@ -101,6 +101,14 @@ a {
     align-self: center;
 }
 
+/* footer section */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
 /* color and fonts */
 .header,
 .hero,
