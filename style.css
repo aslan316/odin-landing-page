@@ -1,6 +1,5 @@
 body {
     font-family: "Roboto", sans-serif;
-    max-width: 1200px;
     max-height: 100vh;
     margin: 0;
     padding: 0;
@@ -12,6 +11,7 @@ body {
     box-sizing: border-box;
 }
 
+/* header section */
 .header {
     padding: 12px 150px 75px;
     display: flex;
@@ -30,6 +30,7 @@ a {
     text-decoration: none;
 }
 
+/*hero section*/
 .hero {
     display: flex;
     justify-content: space-between;
@@ -48,6 +49,7 @@ a {
     text-align: center;
 }
 
+/* information section */
 .information {
     display: flex;
     flex-direction: column;
@@ -69,6 +71,17 @@ a {
     height: auto;
 }
 
+/* quote section */
+.quote {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote .name {
+    align-self: flex-end;
+}
+/* color and fonts */
 .header,
 .hero,
 .footer{
@@ -91,6 +104,8 @@ a {
 
 .secondary-text {
     font-size: 18px;
+    font-weight: 100;
+    color: #1F2937
 }
 
 .hero .secondary-text,
@@ -126,6 +141,7 @@ a {
 .quote .text {
     font-size: 36px;
     font-style: italic;
+    font-weight: 200;
     color: #1F2937;
 }
 
